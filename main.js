@@ -1,7 +1,6 @@
-const {
-    config,
-    engine
-} = require("express-edge");
+// Templating Engine
+const {config,engine} = require("express-edge");
+// Server
 const express = require("express");
 const edge = require("edge.js");
 const bodyParser = require("body-parser");
