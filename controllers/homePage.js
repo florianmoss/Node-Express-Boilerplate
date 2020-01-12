@@ -1,3 +1,9 @@
+const request = require('request');
+
 module.exports = (req, res) => {
-    res.render('index')
+
+    request('http://google.com', function (err, res, body) {
+        console.log(body);
+    });
+    res.render('index');
 }
